@@ -1,0 +1,51 @@
+body,html{
+    margin: 0; 
+    box-sizing: border-box;
+    padding: 0%;
+    background-color: burlywood;
+}
+ 
+#destaque{
+    background-image: url(./img/capa.jpeg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: lavenderblush;
+    height: 100%;
+    width: 100%;
+    
+    
+}
+ 
+.item{
+    background-color: burlywood; 
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding: 1%;
+     
+}
+
+.item img{
+    width: 45%;
+}
+.item p{
+    font-size: 28px;
+
+
+}
+ #produto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    flex-wrap: wrap;
+    text-align: justify;
+    clear: both;
+}
+ 
+footer{
+   clear: both;
+   text-align: center;
+   
+ }
